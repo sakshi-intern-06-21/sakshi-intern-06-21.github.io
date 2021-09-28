@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+<title>Order T-Shirt in Bulk!!</title>
+</head>
+
+<body>
+    <div class="Tshirt">
+ <div class="pageTitle title">
+      Order T-Shirts in Bulk!!</div>
+<center>
+<div class="secondaryTitle title">
+<p><b>We Sell T-Shirts at a fixed price of Rs.300/- per piece.</b></p>
+</div>  
+  <form name="form1" action="#"> 
+<input type="text" class="name formEntry"
+name="tagline-text" placeholder="Tagline" required>
+
+<input id="quantity" type="number" min="1" max="20" step="1" class="name formEntry" placeholder="Quantity" >
+
+       
+ <input type="number" name="number" id="number" class="name formEntry" placeholder="Contact Number">
+ 
+<textarea name="address" id="address" cols="30" rows="4" class="name formEntry" 
+placeholder="Enter Your Address Here"></textarea>
+
+
+<label for="color">Choose Color</label>
+<input type="color" id="color">
+
+
+
+<p><strong> Size Required: </strong></p>
+<input type="radio" id="small" name="small-size" value="S">
+<label for="html">S</label><br>
+<input type="radio" id="medium" name="medium-size" value="M">
+<label for="css">M</label><br>
+<input type="radio" id="large" name="large-size" value="L">
+<label for="javascript">L</label><br>
+
+
+
+
+<button class="submit formEntry" onclick="validate(document.form1.number,document.form1.address)">Submit</button>
+  
+
+
+
+ 
+</form></center>
+  <script src="main.js">
+
+
+</script>
+    </div>
+</body>
+
+
+
+</html>
+
